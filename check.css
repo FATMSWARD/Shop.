@@ -1,0 +1,337 @@
+*{margin: 0;
+    padding: 0;
+    }
+    body{height: 200vh;
+    overflow-x: hidden;
+    }
+    nav{position: relative;
+    
+    }
+    .leftnav{ display: flex;
+        justify-content: left;
+        margin-left: 35px;
+    margin-top: 30px;
+    
+    position: relative;
+    }
+    
+    .search{border:none;
+        outline: none;
+       position: absolute;
+       left: 60px;
+      
+    }
+    .search:focus{left:20px;
+     }
+    
+    .rightnav{display:flex;
+        position: absolute;
+        justify-content: space-around;
+        width: 15%;
+       left: 1000px;
+       top:0px
+    
+    }
+    .icon2{color: black;
+        transition: all 0.2s;
+    }
+    .icon2:hover{ 
+    font-size: large;
+    }
+    
+    .icon3{color: black;
+    
+        transition: all 0.2s;
+    }
+    .icon3:hover{ 
+    font-size: large;
+    }
+    
+    .icon4{color: black;
+        transition: all 0.2s;
+    }
+    .icon4:hover{ 
+        font-size: large;
+        }
+    
+    .button1{background-color: white;
+    font-size: larger;
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 0px;
+    }
+    .no{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+        
+        position: relative;
+        top: 50px;
+        left: 330px;
+        
+    }
+    .no::after{
+        content:"";
+        position: absolute;
+        width:0 ;
+        height: 3px;
+        background-color: rgb(161, 53, 200);
+        top: 30px;
+        left: 0;
+        transition: all 0.6s;
+    
+    }
+    a:hover::after{
+        width: 100%;
+    
+    }
+    .endnav{display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .back1{background-color: rgba(245, 244, 244, 0.907);
+        position: relative;
+        width: 100%;
+        height: 50px;
+    display: flex;}
+    .s1{position: absolute;
+        left: 50px;
+        top: 10px;
+        display: flex; }
+
+
+.d1{display: flex;
+  
+width: 80%;
+height: 20px;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+    margin-top: -150px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.out{transform: translate(-330px,-50px);
+}
+
+
+.cleft{border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+height: 710px;
+position: relative;
+left: 20px;
+padding: 20px;
+width: 40%;
+}
+.country{width: 540px;}
+    .flex0{display: flex;
+        width: 380px;
+        justify-content: space-around;
+        
+    }
+ .flex1{justify-content: space-around;
+    display: flex;
+width: 380px;
+position: absolute;
+top: 690px;
+left: 35px;
+}   
+.up1{position: absolute;
+top: 720px; 
+left: 35px;
+}
+.up2{width: 540px;
+    position: absolute;
+    top: 750px; 
+    left: 35px;
+}
+
+.up3{position: absolute;
+    top: 790px; 
+    left: 35px;
+    }
+    .up4{width: 540px;
+        position: absolute;
+        top: 820px; 
+        left: 35px;
+    }
+    
+    .up5{width: 540px;
+        position: absolute;
+        top: 850px; 
+        left: 35px;
+    }
+    .flex2{justify-content: space-around;
+        display: flex;
+    width: 380px;
+    position: absolute;
+    top: 890px;
+    left: 35px;}
+    .up6{justify-content: space-around;
+        display: flex;
+    width: 380px;
+        position: absolute;
+        top: 915px; 
+        left: 35px;}
+    .flex3{justify-content: space-around;
+        display: flex;
+    width: 380px;
+    position: absolute;
+    top: 940px;
+    left: 35px;}
+    .up7{justify-content: space-around;
+        display: flex;
+    width: 380px;
+        position: absolute;
+        top: 965px; 
+        left: 35px;}
+.up8{ position: absolute;
+    top: 1015px; 
+    left: 35px;}
+    .big5{width: 400px;
+    height: 100px;
+    }
+.bill{
+position: absolute;
+left: 35px;
+top: 440px;
+}
+.couponup{
+    position: absolute;
+    left: 835px;
+    top: 440px;}
+.youro{
+    position: absolute;
+    left: 835px;
+    top: 790px;}
+
+.prp3{background-color: rgb(147, 11, 133);
+    position: absolute;
+    top: 126px;
+    left: 170px;
+    width: 150px;
+    height:30px ;
+   
+    filter: none;
+    transition: 0.2s ease-in;
+color: rgb(255, 255, 255);
+}
+
+.prp3:hover{filter: brightness(70%);
+    transform: scale(1.1);
+    }
+  
+.coupon0{
+    position: absolute;
+    left: 830px;
+    top: 520px;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+height: 210px;
+width: 400px;
+padding-left: 40px;
+
+    }
+    .coupon{position: absolute;
+        height: 25px;}
+       
+  .your0{position: relative;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+height: 610px;
+width:  440px;
+left: 820px;
+top: -450px;
+display: flex;
+text-align: center;
+padding-left: 10px;
+justify-content: space-around;
+
+}
+.direct1{ border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+    position: absolute;
+height: 50px;
+width:  340px;
+left: 30px;
+top: 300px;
+text-align: center;
+padding-left: 10px;}
+
+.direct2{ border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+    position: absolute;
+height: 50px;
+width:  340px;
+left: 30px;
+top: 360px;
+text-align: center;
+padding-left: 10px;}
+    
+
+.direct3{ border: 1px solid rgb(148, 148, 148);
+    box-shadow: 50px;
+    position: absolute;
+height: 50px;
+width:  340px;
+left: 30px;
+top: 420px;
+text-align: center;
+padding-left: 10px;}
+    
+ 
+
+.prp4{background-color: rgb(147, 11, 133);
+    position: absolute;
+    top: 475px;
+    left: 110px;
+    width: 200px;
+    height:50px ;
+   
+    filter: none;
+    transition: 0.2s ease-in;
+color: rgb(255, 255, 255);
+}
+
+.prp4:hover{filter: brightness(70%);
+    transform: scale(1.1);
+    }   
+    
+
+
+
+
+   .end{position: relative;  
+    justify-content: space-around;
+    display: flex;
+    
+    }
+    .foot2{
+    margin-top: 20px;}
+    .foot3{
+        margin-top: 20px;
+    }
+     .text14{color: rgb(180, 32, 163);
+    }
+    ul{list-style-type: none;}
+    .sub{display: flex;}
+    .sub1{height:20px ;
+    width: 100px;
+    }
+    .button4{
+        background-color: rgb(180, 32, 163);
+     
+        height: 22px;
+        width: 60px;
+      
+    color: rgb(255, 255, 255);
+    border:none;
+        outline: none
+    }
+     .button4:hover{   font-size:medium ;
+     }
+     .sub0{margin-top: 0px;}.endn{ position: absolute;
+        margin-top: 50px;
+        margin-left:400px ;}
+  footer{margin-top: -450px;}      
